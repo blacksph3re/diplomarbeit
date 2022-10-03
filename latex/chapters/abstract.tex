@@ -1,0 +1,12 @@
+Load control strategies for wind turbines are used to reduce the structural wear of the turbine without reducing energy yield. Until now, these control strategies are almost exclusively built upon linear approaches like PID and model-based controllers due to their robustness. However, advances in turbine size and capabilities create a need for more complex control strategies that can effectively address design challenges in modern turbines.
+
+This work presents \textit{WINDL}, a load control policy based on a neural network, which is trained through model-free \acf{RL} on a simulated wind turbine.
+While RL has achieved great success in the past on games and simple simulation benchmarks, applications to more complex control problems are starting to emerge just recently. 
+We show that through the usage of regularization techniques and signal transformations, such an application to the field of wind turbine load control is possible.
+Using a smoothness regularizer, we incentivize the highly non-linear neural network policy to output control actions that are safe to apply to a wind turbine.
+The Coleman transformation, a common tool for the design of traditional PID-based load control strategies, is used to project signals into a stationary coordinate space, increasing robustness and final policy performance. 
+
+Trained to control a large offshore turbine in a model-free fashion, WINDL finds a control policy that outperforms a state-of-the-art controller based on the \acs{IPC} strategy with respect to the primary optimization goal blade loads. Using the \acs{DEL} metric, we measure 54.1\% lower blade loads in the steady wind and 13.45\% lower blade loads in the turbulent wind scenario. While such levels of blade reduction come with slightly worse performance on secondary optimization goals like pitch wear and power production, we demonstrate the ability to control the trade-off between different optimization goals on the example of pitch versus blade loads. To complement our findings, we perform a qualitative analysis of the policy behavior and learning process.
+
+
+We believe our work to be the first application of \ac{RL} to wind turbine load control that exceeds baseline performance in the primary optimization metric, opening up the possibility of including specialized load controllers for targeting critical design driving scenarios of modern large wind turbines.

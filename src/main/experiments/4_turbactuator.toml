@@ -1,0 +1,13 @@
+[server]
+cycles = 50
+# There seems to be some memory leakage
+
+[qblade]
+project = "/opt/res/ML_SIM_NOFILTER"
+pitch_actuator_model = true
+
+turbulent_wind = true
+
+windspeed_type = "uniform"
+windspeed_value = [12, 14]
+group = 4

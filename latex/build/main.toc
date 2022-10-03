@@ -1,0 +1,94 @@
+\acswitchoff 
+\contentsline {chapter}{\numberline {1}Introduction}{17}{chapter.1}%
+\contentsline {chapter}{\numberline {2}Background}{21}{chapter.2}%
+\contentsline {section}{\numberline {2.1}Reinforcement Learning}{21}{section.2.1}%
+\contentsline {subsection}{\numberline {2.1.1}Fundamentals}{21}{subsection.2.1.1}%
+\contentsline {subsection}{\numberline {2.1.2}Q-Learning With The Bellman Backup}{23}{subsection.2.1.2}%
+\contentsline {subsection}{\numberline {2.1.3}Policy-based Methods}{24}{subsection.2.1.3}%
+\contentsline {subsection}{\numberline {2.1.4}Intuition}{25}{subsection.2.1.4}%
+\contentsline {subsection}{\numberline {2.1.5}Smoothness Regularization}{25}{subsection.2.1.5}%
+\contentsline {subsection}{\numberline {2.1.6}Smoothness-regularized Soft Actor Critic}{26}{subsection.2.1.6}%
+\contentsline {section}{\numberline {2.2}Wind Turbine Control}{28}{section.2.2}%
+\contentsline {subsection}{\numberline {2.2.1}Wind Turbine Fundamentals}{28}{subsection.2.2.1}%
+\contentsline {subsection}{\numberline {2.2.2}Optimization Aims and Wind Scenarios}{30}{subsection.2.2.2}%
+\contentsline {subsection}{\numberline {2.2.3}Sensor Overview}{32}{subsection.2.2.3}%
+\contentsline {subsection}{\numberline {2.2.4}Wind Turbine Control Types}{33}{subsection.2.2.4}%
+\contentsline {subsection}{\numberline {2.2.5}Yaw-, Pitch- and Torque Controllers}{33}{subsection.2.2.5}%
+\contentsline {subsubsection}{Yaw Control}{33}{section*.13}%
+\contentsline {subsubsection}{Torque Control}{34}{section*.14}%
+\contentsline {subsubsection}{Pitch Control}{34}{section*.15}%
+\contentsline {subsection}{\numberline {2.2.6}Collective Pitch Control}{35}{subsection.2.2.6}%
+\contentsline {subsection}{\numberline {2.2.7}Individual Pitch Control For Load Reduction}{35}{subsection.2.2.7}%
+\contentsline {subsection}{\numberline {2.2.8}Damage Equivalent Loads}{37}{subsection.2.2.8}%
+\contentsline {chapter}{\numberline {3}Approach}{39}{chapter.3}%
+\contentsline {section}{\numberline {3.1}WINDL - A Novel Approach To Wind Turbine Control With RL}{39}{section.3.1}%
+\contentsline {subsection}{\numberline {3.1.1}Preprocessing Simulation States}{40}{subsection.3.1.1}%
+\contentsline {subsubsection}{Cartesian Transformation}{42}{section*.19}%
+\contentsline {subsubsection}{Normalization}{42}{section*.20}%
+\contentsline {subsubsection}{Modified Coleman Transform}{43}{section*.21}%
+\contentsline {subsubsection}{Dilated Past Feeding}{44}{section*.22}%
+\contentsline {subsection}{\numberline {3.1.2}Postprocessing Actions}{45}{subsection.3.1.2}%
+\contentsline {subsubsection}{Denormalization}{45}{section*.24}%
+\contentsline {subsubsection}{Coleman Backtransform}{46}{section*.25}%
+\contentsline {subsubsection}{Assistive CPC}{46}{section*.26}%
+\contentsline {subsection}{\numberline {3.1.3}RL Agent}{47}{subsection.3.1.3}%
+\contentsline {subsection}{\numberline {3.1.4}Reward Shaping}{48}{subsection.3.1.4}%
+\contentsline {subsection}{\numberline {3.1.5}Simulation Wrapper}{49}{subsection.3.1.5}%
+\contentsline {subsubsection}{IEA-10MW Wind Turbine}{50}{section*.28}%
+\contentsline {subsubsection}{Assistive Control Systems}{50}{section*.29}%
+\contentsline {subsubsection}{Pitch Actuator Model}{51}{section*.30}%
+\contentsline {subsection}{\numberline {3.1.6}Wind Scenarios}{51}{subsection.3.1.6}%
+\contentsline {section}{\numberline {3.2}Implementation}{52}{section.3.2}%
+\contentsline {subsection}{\numberline {3.2.1}QBlade Wind Turbine Simulation}{53}{subsection.3.2.1}%
+\contentsline {subsection}{\numberline {3.2.2}Cluster}{53}{subsection.3.2.2}%
+\contentsline {subsection}{\numberline {3.2.3}Distributed RL Framework}{54}{subsection.3.2.3}%
+\contentsline {subsection}{\numberline {3.2.4}Hyperparameters}{56}{subsection.3.2.4}%
+\contentsline {subsection}{\numberline {3.2.5}Evaluation Methodology}{59}{subsection.3.2.5}%
+\contentsline {subsubsection}{Baselines}{59}{section*.33}%
+\contentsline {subsubsection}{Procedures}{59}{section*.34}%
+\contentsline {subsubsection}{Metrics}{60}{section*.35}%
+\contentsline {chapter}{\numberline {4}Results}{63}{chapter.4}%
+\contentsline {section}{\numberline {4.1}Steady Wind Fatigue Loads}{64}{section.4.1}%
+\contentsline {subsection}{\numberline {4.1.1}Presentation}{65}{subsection.4.1.1}%
+\contentsline {subsection}{\numberline {4.1.2}Investigating Policy Actions}{66}{subsection.4.1.2}%
+\contentsline {subsection}{\numberline {4.1.3}Discussion}{66}{subsection.4.1.3}%
+\contentsline {section}{\numberline {4.2}Transition Around Rated Wind Speed}{67}{section.4.2}%
+\contentsline {subsection}{\numberline {4.2.1}Presentation}{67}{subsection.4.2.1}%
+\contentsline {subsection}{\numberline {4.2.2}Different Blade Action Phenomenon At Rated Speed}{68}{subsection.4.2.2}%
+\contentsline {subsection}{\numberline {4.2.3}Discussion}{69}{subsection.4.2.3}%
+\contentsline {section}{\numberline {4.3}Naive Performance Turbulent Wind}{70}{section.4.3}%
+\contentsline {subsection}{\numberline {4.3.1}Presentation}{70}{subsection.4.3.1}%
+\contentsline {subsection}{\numberline {4.3.2}Discussion}{72}{subsection.4.3.2}%
+\contentsline {section}{\numberline {4.4}Adjusted For Pitch Loads}{72}{section.4.4}%
+\contentsline {subsection}{\numberline {4.4.1}Presentation}{73}{subsection.4.4.1}%
+\contentsline {subsection}{\numberline {4.4.2}Investigating Policy Actions}{75}{subsection.4.4.2}%
+\contentsline {subsection}{\numberline {4.4.3}Discussion}{77}{subsection.4.4.3}%
+\contentsline {section}{\numberline {4.5}Tuning For The Pitch-blade Trade-off}{78}{section.4.5}%
+\contentsline {subsection}{\numberline {4.5.1}Presentation}{78}{subsection.4.5.1}%
+\contentsline {subsection}{\numberline {4.5.2}Turbulent Wind}{79}{subsection.4.5.2}%
+\contentsline {subsection}{\numberline {4.5.3}Discussion}{80}{subsection.4.5.3}%
+\contentsline {section}{\numberline {4.6}Generalization Between Wind Scenarios}{81}{section.4.6}%
+\contentsline {subsection}{\numberline {4.6.1}Steady To Turbulent}{81}{subsection.4.6.1}%
+\contentsline {subsection}{\numberline {4.6.2}Turbulent To Steady}{82}{subsection.4.6.2}%
+\contentsline {subsection}{\numberline {4.6.3}Discussion}{83}{subsection.4.6.3}%
+\contentsline {section}{\numberline {4.7}Reward Function}{84}{section.4.7}%
+\contentsline {subsection}{\numberline {4.7.1}Presentation}{84}{subsection.4.7.1}%
+\contentsline {subsection}{\numberline {4.7.2}Discussion}{86}{subsection.4.7.2}%
+\contentsline {section}{\numberline {4.8}RL Algorithm Components}{86}{section.4.8}%
+\contentsline {subsection}{\numberline {4.8.1}Training Process}{87}{subsection.4.8.1}%
+\contentsline {subsection}{\numberline {4.8.2}Q-Function Curvature}{88}{subsection.4.8.2}%
+\contentsline {subsection}{\numberline {4.8.3}Discussion}{90}{subsection.4.8.3}%
+\contentsline {chapter}{\numberline {5}Related Work}{91}{chapter.5}%
+\contentsline {section}{\numberline {5.1}Biomimetic Individual Pitch Control For Load Alleviation}{92}{section.5.1}%
+\contentsline {subsubsection}{Direct Comparison}{93}{section*.56}%
+\contentsline {section}{\numberline {5.2}Load Mitigation Of A Class Of 5-MW Wind Turbine With RBF Neural Network Based Fractional-order PID Controller}{94}{section.5.2}%
+\contentsline {subsubsection}{Direct Comparison}{95}{section*.57}%
+\contentsline {section}{\numberline {5.3}Overcoming Fundamental Limitations Of Wind Turbine Individual Blade Pitch Control With Inflow Sensors}{95}{section.5.3}%
+\contentsline {subsubsection}{Direct Comparison}{96}{section*.58}%
+\contentsline {chapter}{\numberline {6}Conclusion}{97}{chapter.6}%
+\contentsline {section}{\numberline {6.1}Summary}{97}{section.6.1}%
+\contentsline {section}{\numberline {6.2}Future Work}{98}{section.6.2}%
+\contentsline {subsection}{\numberline {6.2.1}Improving Upon WINDL}{98}{subsection.6.2.1}%
+\contentsline {subsection}{\numberline {6.2.2}New Control Challenges}{99}{subsection.6.2.2}%
+\contentsline {subsection}{\numberline {6.2.3}Model-based Approaches}{100}{subsection.6.2.3}%
+\contentsline {section}{\numberline {6.3}Acknowledgments}{101}{section.6.3}%

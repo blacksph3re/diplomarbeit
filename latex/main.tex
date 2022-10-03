@@ -1,0 +1,96 @@
+\documentclass[color]{tudbook}  % color: farbige Titelseite und farbige Kapitelberschriften; nocolor: alles schwarz-wei
+\usepackage[nogerman]{tudthesis}  % german/nogerman: Sprache der Arbeit, wichtig fr Titelseite, Bildunterschriften etc.
+\usepackage{amsmath,amssymb}
+\usepackage{setspace}   % nicht entfernen
+% \usepackage{cite}
+\usepackage{acro}
+\acsetup{format/first-long=\itshape}
+\usepackage{mathtools}
+\usepackage{csquotes}
+\usepackage{hyperref}
+\usepackage{longtable}
+\usepackage{booktabs}
+\usepackage{enumitem}
+\usepackage{caption}
+\usepackage{subcaption}
+\usepackage{changepage}
+\usepackage[toc,page]{appendix}
+\usepackage[numbers]{natbib}
+\def\citeapos#1{\citeauthor{#1}'s \cite{#1}}
+
+\usepackage{tikz}
+\usetikzlibrary{shapes.geometric, arrows, positioning, calc}
+
+\tikzstyle{process} = [rectangle, minimum width=3cm, minimum height=1cm, text centered, text width=3cm, draw=black]
+\tikzstyle{arrow} = [thick,->,>=stealth]
+\tikzstyle{joiner} = [draw, circle, text centered, inner sep = 1pt]
+
+\input{abbreviations.tex}
+
+\newcommand\todo[1]{\textcolor{red}{#1}}
+\DeclareMathOperator*{\argmax}{arg\,max}
+\DeclareMathOperator*{\argmin}{arg\,min}
+\newcommand\wind[1]{\prescript{}{w}{#1}}
+
+\newenvironment{summary}
+  {\begin{adjustwidth}{1em}{1em}}
+  {\end{adjustwidth}}
+% \newenvironment{summary}{\textit{Summary:}}{}
+
+\begin{document}
+
+% Art der Arbeit: \diplom, \beleg, \bachelor, \master
+\diplom
+
+\author{Nico Westerbeck}
+\moreauthor{Matr.-Nr.: 3951488}
+\title{Reinforcement Learning for Wind Turbine Load Control}
+\supervisor{Prof. Dr.-Ing. Wolfgang Lehner}
+\supervisorII{Dr.-Ing. Claudio Hartmann}
+%optionaler Zweitbetreuer
+%\supervisorIII{Betreuer 2}
+% \submitdate{01. April 2022}
+\submitdate{\today}
+
+\maketitle
+
+\setstretch{1.2} % Anpassung Zeilenabstand an Schriftart. Bitte nicht verndern!
+
+\newpage
+% Selbstndigkeitserklrung
+\confirmation
+
+\begin{abstract}
+\input{chapters/abstract.tex}
+\end{abstract}
+
+\tableofcontents
+
+\chapter*{Table of symbols}
+\input{chapters/table_of_symbols.tex}
+
+\chapter{Introduction}
+\input{chapters/intro.tex}
+
+\chapter{Background}
+\input{chapters/background.tex}
+
+\chapter{Approach}
+\input{chapters/approach.tex}
+
+\chapter{Results}
+\input{chapters/results.tex}
+
+\chapter{Related Work}
+\input{chapters/related_work.tex}
+
+\chapter{Conclusion}
+\input{chapters/conclusion.tex}
+
+% \begin{appendices}
+% \input{chapters/appendix.tex}
+% \end{appendices}
+
+\bibliography{main}{}
+\bibliographystyle{unsrtnat}
+\end{document}

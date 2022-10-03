@@ -1,0 +1,8 @@
+[qblade]
+windspeed_type = "const"
+windspeed_value = 14.9
+group = 1049
+inflow_angle_hor_type = "const"
+inflow_angle_hor_value = 0
+init_rotor_azimuth_type = "const"
+init_rotor_azimuth_value = 0

@@ -1,0 +1,131 @@
+\newcommand\sym[2]{\item[]{\makebox[1.5cm][l]{$#1$}#2}}
+\newcommand\symd[3]{%
+\protected\gdef#1{#2}%
+\item[]{\makebox[1.5cm][l]{$#2$}#3}}
+\newcommand\symunit[3]{\item[]{\makebox[1.5cm][l]{$#1$}#2 [#3]}}
+\newcommand\symdunit[4]{%
+\protected\gdef#1{#2}%
+\item[]{\makebox[1.5cm][l]{$#2$}#3 [#4]}}
+
+
+\begin{description}
+    \section*{Latin alphabet}
+
+    \sym{a}{Action to be executed in the environment}
+    \sym{A}{Action space}
+    % \symd{\drrrcoeff}{c_0}{Regularization coefficient for DR3 regularization}
+    \sym{c_d}{d-component of the Coleman Transformation}
+    \sym{c_q}{q-component of the Coleman Transformation}
+    \sym{c_s}{s-component of the Coleman Transformation}
+    \sym{\tilde c_s}{s-component of the Coleman Transformation, highpass filtered}
+    \sym{c_D}{D-component to be back-transformed through the Coleman Transformation}
+    \sym{c_Q}{Q-component to be back-transformed through the Coleman Transformation}
+    \sym{c_S}{S-component to be back-transformed through the Coleman Transformation}
+    \sym{D}{Distance measure, e.g. euclidean distance or Kullbach-Leibler divergence}
+    \symdunit{\del}{\text{DEL}}{Damage Equivalent Loads}{Nm}
+    \symdunit{\bdel}{\text{DEL}_b}{Damage Equivalent Loads for blade bendings}{Nm}
+    \symdunit{\pdel}{\text{DEL}_p}{Damage Equivalent Loads for pitch actuation}{Nm}
+    \symd{\delrel}{\widehat{\text{DEL}}}{Relative Damage Equivalent Loads to the IPC policy}
+    \symd{\bdelrel}{\widehat{\text{DEL}}_b}{Relative Damage Equivalent Loads for blade bendings to the IPC policy}
+    \symd{\pdelrel}{\widehat{\text{DEL}}_p}{Relative Damage Equivalent Loads for pitch actuation to the IPC policy}
+    \symd{\wdel}{\widehat{\text{DEL}}_w}{Weighted relative Damage Equivalent Loads between pitch and blade metrics}
+    \symdunit{\fdel}{f^{eq}}{\acs{DEL} equivalent frequency}{Hz}
+    \symd{\pidgainp}{K_{\text{p}}}{PID gain of the P component}
+    \symd{\pidgaini}{K_{\text{i}}}{PID gain of the I component}
+    \symd{\pidgaind}{K_{\text{d}}}{PID gain of the D component}
+    % \symd{\lenreplaybuffer}{l_{\mathcal{D}}}{Length of the replay buffer}
+    \symd{\rainflowrange}{L_i^R}{Range of rainflow cycle i}
+    \symd{\woehler}{m}{\acs{DEL} Wöhler exponent}
+    \symdunit{\soopbend}{M}{Out-of-plane blade root bending moment}{Nm}
+    \symdunit{\soopbenda}{M_1}{Out-of-plane blade root bending moment blade 1}{Nm}
+    \symdunit{\soopbendb}{M_2}{Out-of-plane blade root bending moment blade 2}{Nm}
+    \symdunit{\soopbendc}{M_3}{Out-of-plane blade root bending moment blade 3}{Nm}
+    \symdunit{\stbend}{MT}{Tower bottom bending moment}{Nm}
+    \symdunit{\stbendx}{MT_x}{Tower bottom bending moment along global X}{Nm}
+    \symdunit{\stbendy}{MT_y}{Tower bottom bending moment along global Y}{Nm}
+    \symdunit{\stbendz}{MT_z}{Tower bottom bending moment along global Z}{Nm}
+    \symd{\rainflowcount}{n_i}{Count of rainflow cycle i}
+    \symdunit{\spow}{P}{Measured generator power}{W}
+    \sym{Pr(x|y)}{Conditional probability of x happening under condition y}
+
+    \sym{Q}{Q-function}
+    \sym{r}{Reward signal, usually dependent on state and action $r(s,a)$}
+    \symd{\rmin}{r_{\text{min}}}{Minimal possible reward}
+    \symd{\rmax}{r_{\text{max}}}{Maximal possible reward}
+    \symd{\capss}{R_{\text{spat}}}{Spatial regularization penalty}
+    \symd{\capst}{R_{\text{temp}}}{Temporal regularization penalty}
+    \symd{\drrrreg}{R_{\text{dr3}}}{DR3 regularization penalty}
+    \sym{s}{State obtained from environment in a timestep}
+    \sym{S}{State space}
+    \sym{t}{Time step}
+    \symdunit{\atorque}{T}{Generator torque action}{kN}
+    \symdunit{\storque}{\prescript{}{s}{T}}{Measured high-speed shaft (=generator) torque}{Nm}
+    \sym{V}{Value function}
+
+    \section*{Caligraphic letters}
+
+    \symd{\replaybuffer}{\mathcal{D}}{Replay buffer with recent experiences}
+    \sym{\mathbb{E}}{Expected value of a random variable}
+    \sym{\mathcal{H}}{Entropy of a distribution}
+    \symd{\targetentropy}{\bar{\mathcal{H}}}{Target entropy of \acs{SAC}}
+    \sym{\mathcal{J}}{Optimization aim}
+    \sym{\mathcal{J}_{Q}}{Q-function optimization aim}
+    \sym{\mathcal{J}_{\pi}}{Policy optimization aim}
+
+    \section*{Greek alphabet}
+
+    \sym{\alpha}{Entropy temperature coefficient in maximum entropy reinforcement learning}
+    \symdunit{\ayaw}{\alpha_{\text{yaw}}}{Nacelle yaw action}{deg}
+
+    \symdunit{\apitcha}{\beta_1}{Pitch action blade 1}{deg}
+    \symdunit{\apitchb}{\beta_2}{Pitch action blade 2}{deg}
+    \symdunit{\apitchc}{\beta_3}{Pitch action blade 3}{deg}
+    \protected\gdef\apitchx{\beta}
+    \symdunit{\apitch}{\beta_{\text{CPC}}}{Collective pitch action}{deg}
+    \symdunit{\apitchad}{\dot{\beta_1}}{Assistive pitch action that can be added to a collective pitch action}{deg}
+    \symdunit{\apitchbd}{\dot{\beta_2}}{Assistive pitch action that can be added to a collective pitch action}{deg}
+    \symdunit{\apitchcd}{\dot{\beta_3}}{Assistive pitch action that can be added to a collective pitch action}{deg}
+    \protected\gdef\apitchxd{\dot{\beta}}
+    \symdunit{\ipcplay}{\dot{\beta}_{range}}{IPC control play range}{deg}
+    \symdunit{\spitcha}{\prescript{}{s}{\beta_1}}{Measured pitch blade 1}{deg}
+    \symdunit{\spitchb}{\prescript{}{s}{\beta_2}}{Measured pitch blade 2}{deg}
+    \symdunit{\spitchc}{\prescript{}{s}{\beta_3}}{Measured pitch blade 3}{deg}
+    \protected\gdef\spitchi{\prescript{}{s}{\beta_i}}
+    \protected\gdef\spitchx{\prescript{}{s}{\beta}}
+
+    \sym{\gamma}{Reward discounting factor}
+    \symd{\epsspat}{\epsilon_{\text{spat}}}{Spatial regularization standard deviation}
+    \symd{\targetupdate}{\eta}{Q target update coefficient}
+    \sym{\theta}{Parameters to a function approximator, e.g. weights and biases}
+    \sym{\bar{\theta}}{Parameters to a target network}
+    \symdunit{\sazi}{\prescript{}{s}{\theta}}{Azimuthal position of the low-speed shaft}{deg}
+    \symd{\cartazix}{\sazi_x}{X coordinate of rotor azimuth $\sazi$ in Cartesian coordinates}
+    \symd{\cartaziy}{\sazi_y}{Y coordinate of rotor azimuth $\sazi$ in Cartesian coordinates}
+    \symd{\lambdapast}{\lambda_{\text{past}}}{Number of dilated past feeding steps}
+    \symd{\rcoleman}{\lambda_{r_b}}{Reward function blade coefficient}
+    \symd{\rcolemanact}{\lambda_{r_p}}{Reward function pitch coefficient}
+    \symd{\rconst}{\lambda_{r_o}}{Reward function constant offset}
+    % \symd{\rpitchtravel}{\text{deprecated}}{Reward function pitch travel penalty}
+    \symd{\lambdaspat}{\lambda_{\text{spat}}}{Spatial regularization coefficient}
+    \symd{\lambdatemp}{\lambda_{\text{temp}}}{Temporal regularization coefficient}
+    \symd{\lambdatraj}{\lambda_{\text{traj}}}{Maximum trajectory length}
+    \symdunit{\swind}{\mu}{Mean wind speed at hub height}{m/s}
+    \symdunit{\sinfhor}{\mu_{\omega}}{Horizontal inflow angle}{deg}
+    \sym{\pi}{Stochastic policy}
+    \sym{\pi_{\text{det}}}{Deterministic policy}
+    \symd{\cpi}{\varpi}{Circle constant $\approx 3.14159...$}
+    \sym{\rho}{(Unknown) environment dynamics}
+    \symd{\trajectory}{\tau}{Trajectory rollout, i.e. a list of states and actions}
+    \symd{\tauhp}{\tau_{hp}}{Highpass filter constant from modified Coleman transform}
+    \symd{\pbtrade}{\tau_{pb}}{Pitch - Blade DEL tradeoff factor}
+    % \symd{\qlastlayer}{\phi}{Last-layer activation of the Q-function}
+    \symdunit{\philead}{\phi_{\text{lead}}}{Coleman backtransform lead angle}{rad}
+    \symdunit{\srot}{\varphi}{Rotational speed}{rad/s}
+    \symd{\pitchmodelfreq}{\varphi_{pa}}{Pitch actuator model low pass filter frequency}
+    \symd{\pitchmodeldamp}{\xi_{pa}}{Pitch actuator model low pass filter damping coefficient}
+
+    \section*{Acronyms}
+    \printacronyms[heading=none]
+
+\end{description}
+

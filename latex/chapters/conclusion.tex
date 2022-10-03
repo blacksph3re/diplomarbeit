@@ -1,0 +1,69 @@
+\label{ch:conclusion}
+
+This chapter summarizes the most notable results and concludes the potential impact of this work. Furthermore, it presents ideas for future work.
+
+\section{Summary}
+
+In this work, we successfully applied the methodology of reinforcement learning to the field of wind turbine load control. The controller learned the fundamental control mechanism that work for the turbine without prior knowledge of the model. It has a better performance to the popular IPC strategy, depending on the considered metric.
+
+We demonstrate WINDL to be capable of learning a potent policy for the easier steady wind scenario, where it reduced blade equivalent loads from the current state-of-the-art by 54.1\%, introducing only 3.8\% more pitch equivalent loads. Also, we showed that through adjustment of hyperparameters, WINDL can bring a significant advancement in the turbulent wind scenario. While sacrificing moderate levels of pitch wear and power yield, it outperforms the state-of-the-art with 13.5\% lower blade fatigue loads and 5.5\% lower blade extreme loads. All these results are possible using the sensor array that is used for traditional IPC strategies.
+
+Our approach is not limited to a single point in the trade-off between components, and we show that WINDL is capable of finding potent policies for different prioritization of optimization aims. This flexibility makes our approach suitable for a wide range of turbines.
+
+Especially in challenging scenarios where it is difficult to find a suitable traditional control strategy, the ability to black-box optimize these scenarios enables new ways to approach turbine controller development. Through the example of blade load reductions, we show that this black-box optimization process is capable of reducing specific design loads of turbine components efficiently and to similar or better levels than a traditional IPC. A targeted use of WINDL can potentially overcome limitations of linear controller design, resulting in an improvement of turbine control in general and as such reducing \ac{LCOE}.
+
+Behavior exhibited by our control policies can serve as a basis to form understanding in the field of wind turbine load control in general. Because the reinforcement learning algorithm is not given any pre-fabricated solution strategy, it comes up with innovative ways to solve the challenges at hand. It learns to pitch at multiples of the rotor frequency in the steady wind and invests pitch wear only when it is necessary in the turbulent wind. Similar strategies were investigated in recent works, but WINDL learned them without prior knowledge.
+
+The improvements in this work were achieved by model-free optimization by sampling from a black-box environment. To our knowledge, this is the first work to reach superior performance than traditional baselines in the primary optimization quantity, and the second work to attempt this optimization \cite{coqueletBiomimeticIndividualPitch2020}. We achieve our aims by utilizing suitable regularization, the Coleman transformation to project a stationary coordinate system, a reward function that encodes all of our optimization goals, and through massively parallel computation on a high-performance cluster.
+
+Limitations to our approach are missing interpretability and poor generalization performance. We show that it is not straightforward to adjust WINDL to the desired trade-off weighting. A full hyperparameter tuning process is necessary to learn a new wind scenario and to match specific optimization priorities. Such a training is only possible on a high-performance cluster. Furthermore, we find that WINDL does not perform well in unseen scenarios. The lack of generalization introduces the need for an exhaustive evaluation, and an in-depth analysis of failure scenarios is needed before any application to a real-life turbine is possible. Furthermore, we can not gain a full understanding of the inner workings of the algorithms and hence can not provide mathematical guarantees to its performance.
+
+We pave the way for future work in the newly emerging field of reinforcement learning for wind turbine load control. When the drawbacks of our work are addressed, a new generation of wind turbine load controllers might be based on ideas from WINDL. The cost savings of an effective load-minimizing policy directly contribute to the adoption of renewable energy, a necessary step for humanity's fight against climate change. By introducing the load-minimizing policy WINDL, we took a baby-step towards solving possibly the biggest challenge of our generation.
+
+\section{Future Work}
+
+This section discusses future work that could improve upon our work. There are three major streams of work. The first one directly improves upon this work, the second stream integrates new control challenges into the same algorithm, and the third stream switches the reinforcement learning algorithm.
+
+\subsection{Improving Upon WINDL}
+
+Albeit the results in this work are a step forward from the current state-of-the-art, there is room for improvement. First and foremost, the problems of the current WINDL need to be addressed. This is mainly the generalization performance and the failure to optimize secondary objectives such as loss of power. 
+
+Loss of power can be addressed by implementing a policy ramp down similar to the IPC strategy, which leaves no option for the RL agent to lose power because it can not act when the wind speed dips below rated. This will certainly solve the problem, but also leave no room for load minimization. Potentially, a softer variant that only penalizes power loss through the reward function might be sufficient to alleviate the problem of power losses. With the softer power penalty, WINDL has the ability to dodge the worst extreme loads for a little bit of power loss, which would be a better trade-off to make.
+
+Further optimization quantities such as tower vibration, power fluctuation, or drive-train wear can be investigated by training policies that specifically address these problems. This would increase the range of real-world scenarios in which an application of WINDL is desirable beyond blade sensitive applications. Potentially, including all these optimization aims at once could be possible and yield a flexible all-round load control solution.
+
+The poor generalization performance is induced by the choice of algorithm and will not be solved without changing algorithms completely. However, training on a mix of wind scenarios might yield a policy that can deal more tasks at hand. It's critical to still retain a test-set of unseen scenarios to keep an eye on generalization performance, as it is unlikely that even a well designed test suite completely models all possible scenarios in existence. 
+
+Many machine learning models are vulnerable to adversarial attacks \cite{huangAdversarialAttacksNeural2017}. For a traditional sensor layout, such attacks can be ruled out, as modifying control signals from these sensors requires breaking the turbine perimeter security. An attacker model capable of doing this already has full control over the turbine. However, an accidental adversarial attack due to a sensor malfunction could throw the network off, potentially yielding catastrophic results. Catastrophic malfunctions of a sensor are rare, but slight errors such as sensor noise due to heat or electromagnetic radiation occurs potentially often. Albeit traditional PID controllers are not immune to sensor malfunctions either, WINDL has a higher chance of such an event deteriorating control stability due to the high number of sensors integrated. An investigation into how the networks react to different sensor failure conditions should be undertaken.
+
+When these problems are fixed, WINDL is ready to be tested against the wind test suite as described in \cite{internationalelectrotechnicalcommissionIEC61400120192019}. Such a test is a criterium to certify a controller for usage on a real world wind turbine. While we can not certify WINDL officially as we can not derive mathematical stability guarantees, providing results for those tests would increase the chance for adoption. This test would be most insightful if WINDL has not seen the certification suite during training. The last step would be the transfer of the WINDL controller to a real-life turbine in a wind channel. As every simulation has its inaccuracies, a final judgement on how well it translates from simulation to reality can only be made by testing it on a replica of a real turbine.
+
+\subsection{New Control Challenges}
+
+The great potential of reinforcement learning is the easy integration of new control inputs and outputs. 
+
+Trailing edge flaps have shown the potential to alleviate extreme loads with only minor losses of power, but are hard to control \cite{perez-beckerActiveFlapControl2021} due to the high number of output signals that need to be coordinated. Each of these signals affects the others, and designing a modular controller has shown only minor gains. Reinforcement learning has the potential to optimize high-dimensional action spaces such as human locomotion \cite{brockmanOpenAIGym2016}, so applying WINDL to trailing edge flap control could mean a leap forward in extreme load control.
+
+Advanced sensors such as LIDARs \cite{bossanyiWindTurbineControl2014} or blade-inflow sensing \cite{jonesOvercomingFundamentalLimitations2018} promise to give a detailed information about the surrounding wind field. Using this information can be used for predictive control actions, counteracting turbulences before they even hit the blades. However, integrating these high-dimensional sensor inputs is difficult to achieve with traditional PID-based control strategies. Reinforcement learning has proven to be suited for high-dimensional optimization, such as learning from pixel data \cite{mnihPlayingAtariDeep2013}. Hence, WINDL has the potential to effectively integrate such advanced sensor arrays for even better load reduction.
+
+Lastly, new control challenges such as floating off-shore turbines or multi-rotor turbines offer potential for advanced control strategies, as the dynamics of those systems are harder to model than a traditional wind turbine. Hence, deriving a controller is less accurate and does not transfer well into reality.
+
+\subsection{Model-based Approaches}
+
+We believe the greatest hurdle to adoption of reinforcement learning in wind turbine control to be safety constraints. Model-based reinforcement learning has the potential to alleviate these limits.
+
+Installing a black-box controller on a multimillion-dollar turbine is a risky management decision. In Section \ref{section:results-transfer} we measured poor generalization performance, which induces risks of missing an edge case scenario during evaluation to which the controller does not generalize. PID controllers in contrast are well understood and tested, and offer a solid baseline performance. Even larger gains through a potentially high-performing reinforcement learning policy might not be enough to offset the risk of losing a turbine.
+
+Model-based reinforcement learning has several potentials to improve upon our model-free approach. Through the model, it is able to more efficiently estimate future behavior and to generalize better. \citet{pearlCausalInferenceStatistics2009} proved generalization without a model to be impossible in the presence of confounding, which likely matches the situation for wind turbines. Hence, we expect even better model performance through the switch to a model-based approach.
+
+If identifying suitable model dynamics for model-based reinforcement learning turns out infeasible, we can also imagine a two-step approach which starts with a model-free optimization process and adds a dynamic discovery process like the work described by \citet{bruntonDiscoveringGoverningEquations2016} to yield an interpretable policy.
+
+Most importantly, a model-based or interpretable policy can be used to derive safety guarantees \cite{berkenkampSafeModelbasedReinforcement2017}. Providing a solid stability margin for a policy even in unseen conditions would be a major argument towards the adoption of reinforcement-learning based controllers.
+
+\section{Acknowledgments}
+
+The work was supported by the North-German Supercomputing Alliance (HLRN). We are grateful for their generousity with respect to compute budget.
+
+Furthermore, I, Nico Westerbeck, want to thank my supervisors Julius Gonsior (TU Dresden), David Marten (TU Berlin) and Sebastian Perez-Becker (TU Berlin) for the time and effort invested. Your feedback was crucial in this work.
+
+At last, thanks to my family for the time and support, and for giving an inspiration to name this work.

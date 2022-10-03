@@ -1,0 +1,34 @@
+syntax = "proto3";
+
+message WindSettings {
+  double windspeed = 1;
+  double horizontal_angle = 2;
+  double vertical_angle = 3;
+  double shear_exponent = 4;
+  double reference_height = 5;
+}
+
+message AgentEnv {
+  enum Command {
+    REQUEST_INITIAL_STATE = 0;
+    STEP = 1;
+    RESET = 2;
+    PING = 3;
+    ERROR = 4;
+    SAVE = 5;
+    LOAD = 6;
+  }
+  Command command = 1;
+  repeated double action = 2;
+  bool set_wind = 3;
+  WindSettings windsettings = 4;
+  bytes saved_state = 5; // if we saved the env before, this can be used to load the state
+}
+
+message EnvAgent {
+  AgentEnv.Command command = 1;
+  repeated double observation = 2;
+  double reward = 3;
+  bool death = 4;
+  bytes info = 5; // pickled version of whatever comes out of env or saved state
+}

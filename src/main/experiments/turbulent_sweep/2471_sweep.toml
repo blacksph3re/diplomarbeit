@@ -1,0 +1,11 @@
+[qblade]
+turbulent_wind = true
+windspeed_type = "const"
+windspeed_value = "15.8"
+rng_seed_type = "const"
+rng_seed_value = 2471
+init_rotor_azimuth_type = "const"
+init_rotor_azimuth_value = 0
+inflow_angle_hor_type = "const"
+inflow_angle_hor_value = 0
+group = 2471

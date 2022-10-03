@@ -1,0 +1,61 @@
+This is BibTeX, Version 0.99d (TeX Live 2021/Arch Linux)
+Capacity: max_strings=200000, hash_size=200000, hash_prime=170003
+The top-level auxiliary file: main.aux
+The style file: unsrtnat.bst
+Database file #1: main.bib
+Warning--empty institution in bortolottiIEAWindTCP2019
+Warning--empty journal in perez-beckerAdvancedAerodynamicModeling2021
+Warning--empty institution in internationalelectrotechnicalcommissionIEC61400120192019
+Warning--empty journal in birMultibladeCoordinateTransformation2008
+Warning--empty booktitle in matsuichiFatigueMetalsSubjected1968
+Warning--empty booktitle in blasquesMeanLoadEffects2013
+Warning--empty booktitle in hansenBasicDTUWind2013
+Warning--empty journal in martenQBladeModernTool2020
+Warning--empty journal in buhlOpenFAST
+Warning--empty year in buhlOpenFAST
+Warning--empty year in buhlOpenFAST
+Warning--empty year in neilkelleyandbonniejonkmanTurbSim
+Warning--empty booktitle in buhlCRUNCHUSERGUIDE2001
+Warning--empty institution in jonkmanDefinition5MWReference2009
+You've used 78 entries,
+            2481 wiz_defined-function locations,
+            1134 strings with 26938 characters,
+and the built_in function-call counts, 31450 in all, are:
+= -- 2614
+> -- 1931
+< -- 42
++ -- 734
+- -- 577
+* -- 2668
+:= -- 5313
+add.period$ -- 352
+call.type$ -- 78
+change.case$ -- 157
+chr.to.int$ -- 77
+cite$ -- 92
+duplicate$ -- 1472
+empty$ -- 2592
+format.name$ -- 677
+if$ -- 6513
+int.to.chr$ -- 2
+int.to.str$ -- 79
+missing$ -- 69
+newline$ -- 509
+num.names$ -- 243
+pop$ -- 585
+preamble$ -- 1
+purify$ -- 78
+quote$ -- 0
+skip$ -- 807
+stack$ -- 0
+substring$ -- 948
+swap$ -- 249
+text.length$ -- 10
+text.prefix$ -- 0
+top$ -- 0
+type$ -- 537
+warning$ -- 14
+while$ -- 223
+width$ -- 0
+write$ -- 1207
+(There were 14 warnings)

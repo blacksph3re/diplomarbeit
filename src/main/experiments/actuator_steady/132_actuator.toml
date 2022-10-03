@@ -1,0 +1,13 @@
+[qblade]
+project = "/opt/res/ML_SIM_NOFILTER"
+pitch_actuator_model = true
+
+windspeed_type = "const"
+windspeed_value = 12
+group = 132
+
+inflow_angle_hor_type = "const"
+inflow_angle_hor_value = 0
+
+init_rotor_azimuth_type = "const"
+init_rotor_azimuth_value = 0

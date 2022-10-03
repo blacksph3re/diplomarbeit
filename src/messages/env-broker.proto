@@ -1,0 +1,37 @@
+syntax = "proto3";
+
+message StatusUpdate {
+  // A qblade instance only knows these 3 states, though internally in the broker it has more
+  enum Status {
+    INITIALIZING = 0;
+    RESETTING = 1;
+    IDLE = 2;
+    WORKING = 3;
+    SHUTTING_DOWN = 4;
+  }
+  Status status = 1;
+  int32 id = 2;
+
+  string project_file = 3;
+  string qblade_library = 4;
+  string address = 5;
+
+  // Action and observation space are pickled
+  bytes action_space = 6;
+  bytes observation_space = 7;
+
+  // Load Average divided by number of CPUs
+  double load = 8;
+  int32 cpu_count = 9;
+  int32 steps_computed = 10;
+
+  // The config group this environment belongs to
+  uint32 group = 11;
+}
+
+message StatusUpdateConfirmation {
+  // This is used to assign a new id to the env
+  int32 id = 1;
+  // Whether something went wrong and the instance should reconnect
+  bool reconnect = 2;
+}

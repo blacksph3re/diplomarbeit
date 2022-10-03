@@ -1,0 +1,81 @@
+
+[net]
+
+# Whether to bind to a specific port
+# * for auto bind
+bind_port = "*"
+
+# Address to bind to, * means listen on all nics
+bind_address = "*"
+
+# What to send to the broker as the own hostname
+# Should be resolvable from where the agents are
+# If empty, defaults to socket.gethostname()
+#hostname = ""
+
+
+[broker]
+
+port = "4748"
+# If LOAD_BROKER_HOST_FROM_FILE env var is set, overwrites hostname
+hostname = "localhost"
+
+[binaries]
+
+qblade_library = "../../deps/qblade_build/libQBlade.so"
+controller_library = "../../deps/qblade_build/ControllerFiles/TUBCon_1.3.9_64Bit.so"
+turbsim_binary = "../../deps/qblade_build/Binaries/TurbSim64"
+# If set will preload the chrono library 
+# This somehow prevented crashes
+#preload_chrono = ""
+pb_message_folder = "../../build/messages/python"
+
+[server]
+
+# Where to copy everything
+# If empty, uses mktemp
+#working_dir = ""
+time_limit = 999999
+cycles = 500
+
+[qblade]
+
+project = "../../res/ML_SIM"
+balance_iters = 1000
+
+yaw_control = false
+
+gearbox_ratio = 1.0
+max_generator_torque = 15600000.0
+max_blade_pitch = 90.0
+max_yaw = 90.0
+pitch_actuator_model = false
+
+turbulent_wind = false
+
+# the turbulence class, can be "A", "B" or "C"
+turbulence_class_type = "const"
+turbulence_class_value = "A"
+
+# the turbulence type, can be "NTM", "ETM", "xEWM1" or "xEWM50" - where x is the turbine class (1,2 or 3)
+turbulence_type_type = "const"
+turbulence_type_value = "NTM"
+
+# Type can be "const", "uniform" or "choice"
+# With "uniform" type, needs 2 values in range
+windspeed_type = "uniform"
+windspeed_value = [12, 14]
+
+inflow_angle_hor_type = "choice"
+inflow_angle_hor_value = [-8, 0, 8]
+
+inflow_angle_vert_type = "const"
+inflow_angle_vert_value = 0
+
+rng_seed_type = "uniform"
+rng_seed_value = [-214748364, 214748364]
+
+init_rotor_azimuth_type = "uniform"
+init_rotor_azimuth_value = [0, 360]
+
+group = 0

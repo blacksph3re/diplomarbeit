@@ -1,0 +1,5 @@
+% \chapter{Comment on the gym interface consistency with reward functions}
+% \label{ch:appendix_reward_consistency}
+
+
+% There is a flaw in the gym environment that so far has not raised much attention. The theory states that the reward function should be calculated based on the current time steps action and state $r_t = r(s_t, a_t)$. The gym interface is designed with the step function $s_{t+1}, r_t, a = \text{step}(a_t; \hat{s_t})$ where $\hat{s_t}$ is the full (likely partially unobserved) state of the environment. However, at the time of producing $s_{t+1}$ the environment function step 

@@ -1,0 +1,5 @@
+[qblade]
+
+windspeed_type = "uniform"
+windspeed_value = [12, 14]
+group = 0

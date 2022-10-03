@@ -1,0 +1,7 @@
+[qblade]
+project = "/opt/res/ML_SIM_NOFILTER"
+pitch_actuator_model = true
+
+windspeed_type = "uniform"
+windspeed_value = [10,20]
+group = 3

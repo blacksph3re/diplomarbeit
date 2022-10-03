@@ -1,0 +1,674 @@
+\begin{thebibliography}{78}
+\providecommand{\natexlab}[1]{#1}
+\providecommand{\url}[1]{\texttt{#1}}
+\expandafter\ifx\csname urlstyle\endcsname\relax
+  \providecommand{\doi}[1]{doi: #1}\else
+  \providecommand{\doi}{doi: \begingroup \urlstyle{rm}\Url}\fi
+
+\bibitem[Kost(2021)]{kostLevelizedCostElectricity2021}
+Christoph Kost.
+\newblock Levelized {{Cost}} of {{Electricity- Renewable Energy Technologies}}.
+\newblock Technical report, {Fraunhofer ISE}, June 2021.
+\newblock URL
+  \url{https://www.ise.fraunhofer.de/en/publications/studies/cost-of-electricity.html}.
+
+\bibitem[Bortolotti et~al.(2019)Bortolotti, Tarres, Dykes, Merz, Sethuraman,
+  Verelst, and Zahle]{bortolottiIEAWindTCP2019}
+Pietro Bortolotti, Helena~C Tarres, Katherine~L Dykes, Karl Merz, Latha
+  Sethuraman, David Verelst, and Frederik Zahle.
+\newblock {{IEA Wind TCP Task}} 37: {{Systems Engineering}} in {{Wind Energy}}
+  - {{WP2}}.1 {{Reference Wind Turbines}}.
+\newblock Technical Report NREL/TP-5000-73492, 1529216, June 2019.
+\newblock URL \url{http://www.osti.gov/servlets/purl/1529216/}.
+
+\bibitem[Ragheb and M.(2011)]{raghebWindTurbinesTheory2011}
+Magdi Ragheb and Adam M.
+\newblock Wind {{Turbines Theory}} - {{The Betz Equation}} and {{Optimal Rotor
+  Tip Speed Ratio}}.
+\newblock In Rupp Carriveau, editor, \emph{Fundamental and {{Advanced Topics}}
+  in {{Wind Power}}}. {InTech}, June 2011.
+\newblock ISBN 978-953-307-508-2.
+\newblock \doi{10.5772/21398}.
+\newblock URL
+  \url{http://www.intechopen.com/books/fundamental-and-advanced-topics-in-wind-power/wind-turbines-theory-the-betz-equation-and-optimal-rotor-tip-speed-ratio}.
+
+\bibitem[Stehly et~al.(2020)Stehly, Beiter, and Duffy]{stehly2019CostWind2020}
+Tyler Stehly, Philipp Beiter, and Patrick Duffy.
+\newblock 2019 cost of wind energy review.
+\newblock Technical report, {National Renewable Energy Lab.(NREL), Golden, CO
+  (United States)}, 2020.
+
+\bibitem[Bossanyi(2003)]{bossanyiIndividualBladePitch2003}
+E.~A. Bossanyi.
+\newblock Individual {{Blade Pitch Control}} for {{Load Reduction}}.
+\newblock \emph{Wind Energy}, 6\penalty0 (2):\penalty0 119--128, April 2003.
+\newblock ISSN 1095-4244, 1099-1824.
+\newblock \doi{10.1002/we.76}.
+\newblock URL \url{http://doi.wiley.com/10.1002/we.76}.
+
+\bibitem[Bossanyi(2005)]{bossanyiFurtherLoadReductions2005}
+E.~A. Bossanyi.
+\newblock Further load reductions with individual pitch control.
+\newblock \emph{Wind Energy}, 8\penalty0 (4):\penalty0 481--485, October 2005.
+\newblock ISSN 1095-4244, 1099-1824.
+\newblock \doi{10.1002/we.166}.
+\newblock URL \url{http://doi.wiley.com/10.1002/we.166}.
+
+\bibitem[Petrovi{\'c} et~al.(2021)Petrovi{\'c}, Jelavi{\'c}, and
+  Baoti{\'c}]{petrovicMPCFrameworkConstrained2021}
+Vlaho Petrovi{\'c}, Mate Jelavi{\'c}, and Mato Baoti{\'c}.
+\newblock {{MPC}} framework for constrained wind turbine individual pitch
+  control.
+\newblock \emph{Wind Energy}, 24\penalty0 (1):\penalty0 54--68, January 2021.
+\newblock ISSN 1095-4244, 1099-1824.
+\newblock \doi{10.1002/we.2558}.
+\newblock URL \url{https://onlinelibrary.wiley.com/doi/10.1002/we.2558}.
+
+\bibitem[Lio et~al.(2017)Lio, Jones, Lu, and
+  Rossiter]{lioFundamentalPerformanceSimilarities2017}
+Wai~Hou Lio, Bryn~Ll. Jones, Qian Lu, and J.A. Rossiter.
+\newblock Fundamental performance similarities between individual pitch control
+  strategies for wind turbines.
+\newblock \emph{International Journal of Control}, 90\penalty0 (1):\penalty0
+  37--52, January 2017.
+\newblock ISSN 0020-7179, 1366-5820.
+\newblock \doi{10.1080/00207179.2015.1078912}.
+\newblock URL
+  \url{https://www.tandfonline.com/doi/full/10.1080/00207179.2015.1078912}.
+
+\bibitem[Bossanyi et~al.(2014)Bossanyi, Kumar, and
+  {Hugues-Salas}]{bossanyiWindTurbineControl2014}
+E~A Bossanyi, A~Kumar, and O~{Hugues-Salas}.
+\newblock Wind turbine control applications of turbine-mounted {{LIDAR}}.
+\newblock \emph{Journal of Physics: Conference Series}, 555:\penalty0 012011,
+  December 2014.
+\newblock ISSN 1742-6588, 1742-6596.
+\newblock \doi{10.1088/1742-6596/555/1/012011}.
+\newblock URL
+  \url{https://iopscience.iop.org/article/10.1088/1742-6596/555/1/012011}.
+
+\bibitem[{Perez-Becker} et~al.(2021{\natexlab{a}}){Perez-Becker}, Marten, and
+  Paschereit]{perez-beckerActiveFlapControl2021}
+Sebastian {Perez-Becker}, David Marten, and Christian~Oliver Paschereit.
+\newblock Active flap control with the trailing edge flap hinge moment as a
+  sensor: Using it to estimate local blade inflow conditions and to reduce
+  extreme blade loads and deflections.
+\newblock \emph{Wind Energy Science}, 6\penalty0 (3):\penalty0 791--814, June
+  2021{\natexlab{a}}.
+\newblock ISSN 2366-7451.
+\newblock \doi{10.5194/wes-6-791-2021}.
+\newblock URL \url{https://wes.copernicus.org/articles/6/791/2021/}.
+
+\bibitem[Barlas and {van Kuik}(2010)]{barlasReviewStateArt2010}
+T.K. Barlas and G.A.M. {van Kuik}.
+\newblock Review of state of the art in smart rotor control research for wind
+  turbines.
+\newblock \emph{Progress in Aerospace Sciences}, 46\penalty0 (1):\penalty0
+  1--27, January 2010.
+\newblock ISSN 03760421.
+\newblock \doi{10.1016/j.paerosci.2009.08.002}.
+\newblock URL
+  \url{https://linkinghub.elsevier.com/retrieve/pii/S0376042109000293}.
+
+\bibitem[Mnih et~al.(2013)Mnih, Kavukcuoglu, Silver, Graves, Antonoglou,
+  Wierstra, and Riedmiller]{mnihPlayingAtariDeep2013}
+Volodymyr Mnih, Koray Kavukcuoglu, David Silver, Alex Graves, Ioannis
+  Antonoglou, Daan Wierstra, and Martin Riedmiller.
+\newblock Playing {{Atari}} with {{Deep Reinforcement Learning}}.
+\newblock \emph{arXiv:1312.5602 [cs]}, December 2013.
+\newblock URL \url{http://arxiv.org/abs/1312.5602}.
+
+\bibitem[Brockman et~al.(2016)Brockman, Cheung, Pettersson, Schneider,
+  Schulman, Tang, and Zaremba]{brockmanOpenAIGym2016}
+Greg Brockman, Vicki Cheung, Ludwig Pettersson, Jonas Schneider, John Schulman,
+  Jie Tang, and Wojciech Zaremba.
+\newblock {{OpenAI Gym}}.
+\newblock \emph{arXiv:1606.01540 [cs]}, June 2016.
+\newblock URL \url{http://arxiv.org/abs/1606.01540}.
+
+\bibitem[Demolli et~al.(2019)Demolli, Dokuz, Ecemis, and
+  Gokcek]{demolliWindPowerForecasting2019}
+Halil Demolli, Ahmet~Sakir Dokuz, Alper Ecemis, and Murat Gokcek.
+\newblock Wind power forecasting based on daily wind speed data using machine
+  learning algorithms.
+\newblock \emph{Energy Conversion and Management}, 198:\penalty0 111823,
+  October 2019.
+\newblock ISSN 01968904.
+\newblock \doi{10.1016/j.enconman.2019.111823}.
+\newblock URL
+  \url{https://linkinghub.elsevier.com/retrieve/pii/S0196890419308052}.
+
+\bibitem[Coquelet et~al.(2020)Coquelet, Bricteux, Lejeune, and
+  Chatelain]{coqueletBiomimeticIndividualPitch2020}
+M~Coquelet, L~Bricteux, M~Lejeune, and P~Chatelain.
+\newblock Biomimetic individual pitch control for load alleviation.
+\newblock \emph{Journal of Physics: Conference Series}, 1618:\penalty0 022052,
+  September 2020.
+\newblock ISSN 1742-6588, 1742-6596.
+\newblock \doi{10.1088/1742-6596/1618/2/022052}.
+\newblock URL
+  \url{https://iopscience.iop.org/article/10.1088/1742-6596/1618/2/022052}.
+
+\bibitem[Sutton and Barto(2018)]{suttonReinforcementLearningIntroduction2018}
+Richard~S. Sutton and Andrew~G. Barto.
+\newblock \emph{Reinforcement Learning: An Introduction}.
+\newblock Adaptive Computation and Machine Learning Series. {The MIT Press},
+  {Cambridge, Massachusetts}, second edition edition, 2018.
+\newblock ISBN 978-0-262-03924-6.
+
+\bibitem[Burton et~al.(2011)Burton, Jenkins, Sharpe, and
+  Bossanyi]{burtonWindEnergyHandbook2011}
+Tony Burton, Nick Jenkins, David Sharpe, and Ervin Bossanyi.
+\newblock \emph{Wind {{Energy Handbook}}: {{Burton}}/{{Wind Energy Handbook}}}.
+\newblock {John Wiley \& Sons, Ltd}, {Chichester, UK}, May 2011.
+\newblock ISBN 978-1-119-99271-4 978-0-470-69975-1.
+\newblock \doi{10.1002/9781119992714}.
+\newblock URL \url{http://doi.wiley.com/10.1002/9781119992714}.
+
+\bibitem[Haarnoja et~al.(2018)Haarnoja, Zhou, Abbeel, and
+  Levine]{haarnojaSoftActorCriticOffPolicy2018}
+Tuomas Haarnoja, Aurick Zhou, Pieter Abbeel, and Sergey Levine.
+\newblock Soft {{Actor-Critic}}: {{Off-Policy Maximum Entropy Deep
+  Reinforcement Learning}} with a {{Stochastic Actor}}.
+\newblock \emph{arXiv:1801.01290 [cs, stat]}, August 2018.
+\newblock URL \url{http://arxiv.org/abs/1801.01290}.
+
+\bibitem[Mnih et~al.(2015)Mnih, Kavukcuoglu, Silver, Rusu, Veness, Bellemare,
+  Graves, Riedmiller, Fidjeland, Ostrovski, Petersen, Beattie, Sadik,
+  Antonoglou, King, Kumaran, Wierstra, Legg, and
+  Hassabis]{mnihHumanlevelControlDeep2015}
+Volodymyr Mnih, Koray Kavukcuoglu, David Silver, Andrei~A. Rusu, Joel Veness,
+  Marc~G. Bellemare, Alex Graves, Martin Riedmiller, Andreas~K. Fidjeland,
+  Georg Ostrovski, Stig Petersen, Charles Beattie, Amir Sadik, Ioannis
+  Antonoglou, Helen King, Dharshan Kumaran, Daan Wierstra, Shane Legg, and
+  Demis Hassabis.
+\newblock Human-level control through deep reinforcement learning.
+\newblock \emph{Nature}, 518\penalty0 (7540):\penalty0 529--533, February 2015.
+\newblock ISSN 0028-0836, 1476-4687.
+\newblock \doi{10.1038/nature14236}.
+\newblock URL \url{http://www.nature.com/articles/nature14236}.
+
+\bibitem[{Richard Bellman}(1954)]{richardbellmanTheoryDynamicProgramming1954}
+{Richard Bellman}.
+\newblock The theory of dynamic programming.
+\newblock \emph{Bulletin of the American Mathematical Society}, 60\penalty0
+  (6):\penalty0 503--515, November 1954.
+\newblock URL \url{https://doi.org/}.
+
+\bibitem[Melo(2001)]{meloConvergenceQlearningSimple2001}
+Francisco~S Melo.
+\newblock Convergence of {{Q-learning}}: {{A}} simple proof.
+\newblock \emph{Institute Of Systems and Robotics, Tech. Rep}, pages 1--4,
+  2001.
+
+\bibitem[Lillicrap et~al.(2019)Lillicrap, Hunt, Pritzel, Heess, Erez, Tassa,
+  Silver, and Wierstra]{lillicrapContinuousControlDeep2019}
+Timothy~P. Lillicrap, Jonathan~J. Hunt, Alexander Pritzel, Nicolas Heess, Tom
+  Erez, Yuval Tassa, David Silver, and Daan Wierstra.
+\newblock Continuous control with deep reinforcement learning.
+\newblock \emph{arXiv:1509.02971 [cs, stat]}, July 2019.
+\newblock URL \url{http://arxiv.org/abs/1509.02971}.
+
+\bibitem[Hasselt(2010)]{hasseltDoubleQlearning2010}
+Hado Hasselt.
+\newblock Double q-learning.
+\newblock In J.~Lafferty, C.~Williams, J.~{Shawe-Taylor}, R.~Zemel, and
+  A.~Culotta, editors, \emph{Advances in Neural Information Processing
+  Systems}, volume~23. {Curran Associates, Inc.}, 2010.
+\newblock URL
+  \url{https://proceedings.neurips.cc/paper/2010/file/091d584fced301b442654dd8c23b3fc9-Paper.pdf}.
+
+\bibitem[Fujimoto et~al.(2018)Fujimoto, {van Hoof}, and
+  Meger]{fujimotoAddressingFunctionApproximation2018}
+Scott Fujimoto, Herke {van Hoof}, and David Meger.
+\newblock Addressing {{Function Approximation Error}} in {{Actor-Critic
+  Methods}}.
+\newblock \emph{arXiv:1802.09477 [cs, stat]}, October 2018.
+\newblock URL \url{http://arxiv.org/abs/1802.09477}.
+
+\bibitem[Degris et~al.(2013)Degris, White, and
+  Sutton]{degrisOffPolicyActorCritic2013}
+Thomas Degris, Martha White, and Richard~S. Sutton.
+\newblock Off-{{Policy Actor-Critic}}.
+\newblock \emph{arXiv:1205.4839 [cs]}, June 2013.
+\newblock URL \url{http://arxiv.org/abs/1205.4839}.
+
+\bibitem[Silver et~al.(2016)Silver, Huang, Maddison, Guez, Sifre, {van den
+  Driessche}, Schrittwieser, Antonoglou, Panneershelvam, Lanctot, Dieleman,
+  Grewe, Nham, Kalchbrenner, Sutskever, Lillicrap, Leach, Kavukcuoglu, Graepel,
+  and Hassabis]{silverMasteringGameGo2016}
+David Silver, Aja Huang, Chris~J. Maddison, Arthur Guez, Laurent Sifre, George
+  {van den Driessche}, Julian Schrittwieser, Ioannis Antonoglou, Veda
+  Panneershelvam, Marc Lanctot, Sander Dieleman, Dominik Grewe, John Nham, Nal
+  Kalchbrenner, Ilya Sutskever, Timothy Lillicrap, Madeleine Leach, Koray
+  Kavukcuoglu, Thore Graepel, and Demis Hassabis.
+\newblock Mastering the game of {{Go}} with deep neural networks and tree
+  search.
+\newblock \emph{Nature}, 529\penalty0 (7587):\penalty0 484--489, January 2016.
+\newblock ISSN 0028-0836, 1476-4687.
+\newblock \doi{10.1038/nature16961}.
+\newblock URL \url{http://www.nature.com/articles/nature16961}.
+
+\bibitem[Sutton et~al.(2000)Sutton, McAllester, Singh, and
+  Mansour]{suttonPolicyGradientMethods2000}
+Richard~S Sutton, David McAllester, Satinder Singh, and Yishay Mansour.
+\newblock Policy gradient methods for reinforcement learning with function
+  approximation.
+\newblock In S.~Solla, T.~Leen, and K.~M{\"u}ller, editors, \emph{Advances in
+  Neural Information Processing Systems}, volume~12. {MIT Press}, 2000.
+\newblock URL
+  \url{https://proceedings.neurips.cc/paper/1999/file/464d828b85b0bed98e80ade0a5c43b0f-Paper.pdf}.
+
+\bibitem[Shen et~al.(2020)Shen, Li, Jiang, Wang, and
+  Zhao]{shenDeepReinforcementLearning2020}
+Qianli Shen, Yan Li, Haoming Jiang, Zhaoran Wang, and Tuo Zhao.
+\newblock Deep {{Reinforcement Learning}} with {{Robust}} and {{Smooth
+  Policy}}.
+\newblock \emph{arXiv:2003.09534 [cs, stat]}, August 2020.
+\newblock URL \url{http://arxiv.org/abs/2003.09534}.
+
+\bibitem[Mysore et~al.(2021)Mysore, Mabsout, Mancuso, and
+  Saenko]{mysoreRegularizingActionPolicies2021}
+Siddharth Mysore, Bassel Mabsout, Renato Mancuso, and Kate Saenko.
+\newblock Regularizing {{Action Policies}} for {{Smooth Control}} with
+  {{Reinforcement Learning}}.
+\newblock \emph{arXiv:2012.06644 [cs, eess]}, May 2021.
+\newblock URL \url{http://arxiv.org/abs/2012.06644}.
+
+\bibitem[Haarnoja et~al.(2019)Haarnoja, Zhou, Hartikainen, Tucker, Ha, Tan,
+  Kumar, Zhu, Gupta, Abbeel, and Levine]{haarnojaSoftActorCriticAlgorithms2019}
+Tuomas Haarnoja, Aurick Zhou, Kristian Hartikainen, George Tucker, Sehoon Ha,
+  Jie Tan, Vikash Kumar, Henry Zhu, Abhishek Gupta, Pieter Abbeel, and Sergey
+  Levine.
+\newblock Soft {{Actor-Critic Algorithms}} and {{Applications}}.
+\newblock \emph{arXiv:1812.05905 [cs, stat]}, January 2019.
+\newblock URL \url{http://arxiv.org/abs/1812.05905}.
+
+\bibitem[Haarnoja et~al.(2017)Haarnoja, Tang, Abbeel, and
+  Levine]{haarnojaReinforcementLearningDeep2017}
+Tuomas Haarnoja, Haoran Tang, Pieter Abbeel, and Sergey Levine.
+\newblock Reinforcement {{Learning}} with {{Deep Energy-Based Policies}}.
+\newblock \emph{arXiv:1702.08165 [cs]}, July 2017.
+\newblock URL \url{http://arxiv.org/abs/1702.08165}.
+
+\bibitem[OpenClipart(2017)]{openclipartWindTurbineSketch2017}
+OpenClipart.
+\newblock Wind turbine sketch, August 2017.
+\newblock URL \url{https://freesvg.org/wind-turbine-sketch}.
+
+\bibitem[{Perez-Becker}(2021)]{perez-beckerAdvancedAerodynamicModeling2021}
+Sebastian~Rafael {Perez-Becker}.
+\newblock Advanced aerodynamic modeling and control strategies for load
+  reduction in aeroelastic wind turbine simulations.
+\newblock 2021.
+\newblock \doi{10.14279/DEPOSITONCE-12726}.
+\newblock URL \url{https://depositonce.tu-berlin.de/handle/11303/13952}.
+
+\bibitem[Commission(2019)]{internationalelectrotechnicalcommissionIEC61400120192019}
+International~Electrotechnical Commission.
+\newblock {{IEC}} 61400-1:2019 {{Wind}} energy generation systems - {{Part}} 1:
+  {{Design}} requirements.
+\newblock Technical report, February 2019.
+
+\bibitem[Jones et~al.(2018)Jones, Lio, and
+  Rossiter]{jonesOvercomingFundamentalLimitations2018}
+B.~Ll. Jones, W.~H. Lio, and J.~A. Rossiter.
+\newblock Overcoming fundamental limitations of wind turbine individual blade
+  pitch control with inflow sensors: {{Overcoming}} fundamental limitations of
+  wind turbine individual blade pitch control with inflow sensors.
+\newblock \emph{Wind Energy}, 21\penalty0 (10):\penalty0 922--936, October
+  2018.
+\newblock ISSN 10954244.
+\newblock \doi{10.1002/we.2205}.
+\newblock URL \url{https://onlinelibrary.wiley.com/doi/10.1002/we.2205}.
+
+\bibitem[Howland et~al.(2019)Howland, Lele, and
+  Dabiri]{howlandWindFarmPower2019}
+Michael~F Howland, Sanjiva~K Lele, and John~O Dabiri.
+\newblock Wind farm power optimization through wake steering.
+\newblock \emph{Proceedings of the National Academy of Sciences}, 116\penalty0
+  (29):\penalty0 14495--14500, 2019.
+
+\bibitem[{Perez-Becker} et~al.(2021{\natexlab{b}}){Perez-Becker}, Marten,
+  Nayeri, and Paschereit]{perez-beckerImplementationValidationAdvanced2021}
+Sebastian {Perez-Becker}, David Marten, Christian~Navid Nayeri, and
+  Christian~Oliver Paschereit.
+\newblock Implementation and {{Validation}} of an {{Advanced Wind Energy
+  Controller}} in {{Aero-Servo-Elastic Simulations Using}} the {{Lifting Line
+  Free Vortex Wake Model}}.
+\newblock \emph{Energies}, 14\penalty0 (3):\penalty0 783, February
+  2021{\natexlab{b}}.
+\newblock ISSN 1996-1073.
+\newblock \doi{10.3390/en14030783}.
+\newblock URL \url{https://www.mdpi.com/1996-1073/14/3/783}.
+
+\bibitem[Bir(2008)]{birMultibladeCoordinateTransformation2008}
+G~Bir.
+\newblock Multiblade coordinate transformation and its application to wind
+  turbine analysis: {{Preprint}}.
+\newblock January 2008.
+\newblock URL \url{https://www.osti.gov/biblio/922553}.
+
+\bibitem[Lu et~al.(2015)Lu, Bowyer, and Jones]{luAnalysisDesignColeman2015}
+Q.~Lu, R.~Bowyer, and B.Ll. Jones.
+\newblock Analysis and design of {{Coleman}} transform-based individual pitch
+  controllers for wind-turbine load reduction: {{Individual}} blade-pitch
+  control.
+\newblock \emph{Wind Energy}, 18\penalty0 (8):\penalty0 1451--1468, August
+  2015.
+\newblock ISSN 10954244.
+\newblock \doi{10.1002/we.1769}.
+\newblock URL \url{https://onlinelibrary.wiley.com/doi/10.1002/we.1769}.
+
+\bibitem[Matsuichi and Endo(1968)]{matsuichiFatigueMetalsSubjected1968}
+M.~Matsuichi and Tsutomu Endo.
+\newblock Fatigue of metals subjected to varying stress.
+\newblock 1968.
+
+\bibitem[Miner(1945)]{minerCumulativeDamageFatigue1945}
+Milton~A. Miner.
+\newblock Cumulative {{Damage}} in {{Fatigue}}.
+\newblock \emph{Journal of Applied Mechanics}, 12\penalty0 (3):\penalty0
+  A159--A164, September 1945.
+\newblock ISSN 0021-8936, 1528-9036.
+\newblock \doi{10.1115/1.4009458}.
+\newblock URL
+  \url{https://asmedigitalcollection.asme.org/appliedmechanics/article/12/3/A159/1103202/Cumulative-Damage-in-Fatigue}.
+
+\bibitem[Hayman(2012)]{haymanMLifeTheoryManual2012}
+G~Hayman.
+\newblock {{MLife}} theory manual for version 1.00.
+\newblock \emph{National Renewable Energy Laboratory (NREL)}, 2012.
+\newblock URL
+  \url{https://orbit.dtu.dk/en/publications/basic-dtu-wind-energy-controller}.
+
+\bibitem[Blasques and Natarajan(2013)]{blasquesMeanLoadEffects2013}
+Jos{\'e} Pedro Albergaria~Amaral Blasques and Anand Natarajan.
+\newblock Mean load effects on the fatigue life of offshore wind turbine
+  monopile foundations.
+\newblock 2013.
+
+\bibitem[Freebury and Musial(2000)]{freeburyDeterminingEquivalentDamage2000}
+Gregg Freebury and Walter Musial.
+\newblock Determining equivalent damage loading for full-scale wind turbine
+  blade fatigue tests.
+\newblock In \emph{2000 Asme Wind Energy Symposium}, page~50, 2000.
+
+\bibitem[Welford(1962)]{welfordNoteMethodCalculating1962}
+B.~P. Welford.
+\newblock Note on a {{Method}} for {{Calculating Corrected Sums}} of
+  {{Squares}} and {{Products}}.
+\newblock \emph{Technometrics}, 4\penalty0 (3):\penalty0 419--420, August 1962.
+\newblock ISSN 0040-1706, 1537-2723.
+\newblock \doi{10.1080/00401706.1962.10490022}.
+\newblock URL
+  \url{http://www.tandfonline.com/doi/abs/10.1080/00401706.1962.10490022}.
+
+\bibitem[Hochreiter and Schmidhuber(1997)]{hochreiterLongShortTermMemory1997}
+Sepp Hochreiter and J{\"u}rgen Schmidhuber.
+\newblock Long {{Short-Term Memory}}.
+\newblock \emph{Neural Computation}, 9\penalty0 (8):\penalty0 1735--1780,
+  November 1997.
+\newblock ISSN 0899-7667, 1530-888X.
+\newblock \doi{10.1162/neco.1997.9.8.1735}.
+\newblock URL \url{https://direct.mit.edu/neco/article/9/8/1735-1780/6109}.
+
+\bibitem[Schulman et~al.(2017)Schulman, Wolski, Dhariwal, Radford, and
+  Klimov]{schulmanProximalPolicyOptimization2017}
+John Schulman, Filip Wolski, Prafulla Dhariwal, Alec Radford, and Oleg Klimov.
+\newblock Proximal {{Policy Optimization Algorithms}}.
+\newblock \emph{arXiv:1707.06347 [cs]}, August 2017.
+\newblock URL \url{http://arxiv.org/abs/1707.06347}.
+
+\bibitem[Kingma and Ba(2017)]{kingmaAdamMethodStochastic2017}
+Diederik~P. Kingma and Jimmy Ba.
+\newblock Adam: {{A Method}} for {{Stochastic Optimization}}.
+\newblock \emph{arXiv:1412.6980 [cs]}, January 2017.
+\newblock URL \url{http://arxiv.org/abs/1412.6980}.
+
+\bibitem[Hansen and Henriksen(2013)]{hansenBasicDTUWind2013}
+Morten~H. Hansen and Lars~Christian Henriksen.
+\newblock Basic {{DTU}} wind energy controller.
+\newblock 2013.
+
+\bibitem[Marten(2020)]{martenQBladeModernTool2020}
+David Marten.
+\newblock {{QBlade}}: A modern tool for the aeroelastic simulation of wind
+  turbines.
+\newblock 2020.
+\newblock \doi{10.14279/DEPOSITONCE-10646}.
+\newblock URL \url{https://depositonce.tu-berlin.de/handle/11303/11758}.
+
+\bibitem[Buhl et~al.()Buhl, Hayman, Jonkman, Jonkman, Mudafort, Platt, and
+  Sprague]{buhlOpenFAST}
+Marshall Buhl, Greg Hayman, Jason Jonkman, Bonnie Jonkman, Rafael Mudafort,
+  Andy Platt, and Mike Sprague.
+\newblock {{OpenFAST}}.
+\newblock URL \url{https://github.com/OpenFAST/openfast}.
+
+\bibitem[{Neil Kelley {and} Bonnie
+  Jonkman}()]{neilkelleyandbonniejonkmanTurbSim}
+{Neil Kelley {and} Bonnie Jonkman}.
+\newblock {{TurbSim}}.
+\newblock URL \url{https://www.nrel.gov/wind/nwtc/turbsim.html}.
+
+\bibitem[garage
+  {contributors}(2019)]{contributorsGarageToolkitReproducible2019}
+The garage {contributors}.
+\newblock Garage: {{A}} toolkit for reproducible reinforcement learning
+  research, 2019.
+\newblock URL \url{https://github.com/rlworkgroup/garage}.
+
+\bibitem[Westerbeck(2021)]{westerbeckFrameworkDistributedWind2021}
+Nico Westerbeck.
+\newblock A framework for distributed wind turbine reinforcement learning,
+  October 2021.
+
+\bibitem[Liaw et~al.(2018)Liaw, Liang, Nishihara, Moritz, Gonzalez, and
+  Stoica]{liawTuneResearchPlatform2018}
+Richard Liaw, Eric Liang, Robert Nishihara, Philipp Moritz, Joseph~E Gonzalez,
+  and Ion Stoica.
+\newblock Tune: {{A}} research platform for distributed model selection and
+  training.
+\newblock \emph{arXiv preprint arXiv:1807.05118}, 2018.
+
+\bibitem[Cobbe et~al.(2019)Cobbe, Klimov, Hesse, Kim, and
+  Schulman]{cobbeQuantifyingGeneralizationReinforcement2019}
+Karl Cobbe, Oleg Klimov, Chris Hesse, Taehoon Kim, and John Schulman.
+\newblock Quantifying generalization in reinforcement learning.
+\newblock In Kamalika Chaudhuri and Ruslan Salakhutdinov, editors,
+  \emph{Proceedings of the 36th International Conference on Machine Learning},
+  volume~97 of \emph{Proceedings of Machine Learning Research}, pages
+  1282--1289. {PMLR}, June 2019.
+\newblock URL \url{https://proceedings.mlr.press/v97/cobbe19a.html}.
+
+\bibitem[Kakade(2001)]{kakadeNaturalPolicyGradient2001}
+Sham Kakade.
+\newblock A natural policy gradient.
+\newblock In \emph{Proceedings of the 14th International Conference on Neural
+  Information Processing Systems: {{Natural}} and Synthetic}, {{NIPS}}'01,
+  pages 1531--1538, {Cambridge, MA, USA}, 2001. {MIT Press}.
+
+\bibitem[Hutter et~al.(2019)Hutter, Kotthoff, and
+  Vanschoren]{hutterAutomatedMachineLearning2019}
+Frank Hutter, Lars Kotthoff, and Joaquin Vanschoren, editors.
+\newblock \emph{Automated Machine Learning: Methods, Systems, Challenges}.
+\newblock The {{Springer}} Series on Challenges in Machine Learning.
+  {Springer}, {Cham, Switzerland}, 2019.
+\newblock ISBN 978-3-030-05317-8.
+
+\bibitem[Gencoglu et~al.(2019)Gencoglu, {van Gils}, Guldogan, Morikawa,
+  S{\"u}zen, Gruber, Leinonen, and Huttunen]{gencogluHARKSideDeep2019}
+Oguzhan Gencoglu, Mark {van Gils}, Esin Guldogan, Chamin Morikawa, Mehmet
+  S{\"u}zen, Mathias Gruber, Jussi Leinonen, and Heikki Huttunen.
+\newblock {{HARK Side}} of {{Deep Learning}} -- {{From Grad Student Descent}}
+  to {{Automated Machine Learning}}.
+\newblock \emph{arXiv:1904.07633 [cs]}, April 2019.
+\newblock URL \url{http://arxiv.org/abs/1904.07633}.
+
+\bibitem[Agarwal et~al.(2022)Agarwal, Schwarzer, Castro, Courville, and
+  Bellemare]{agarwalDeepReinforcementLearning2022}
+Rishabh Agarwal, Max Schwarzer, Pablo~Samuel Castro, Aaron Courville, and
+  Marc~G. Bellemare.
+\newblock Deep {{Reinforcement Learning}} at the {{Edge}} of the {{Statistical
+  Precipice}}.
+\newblock \emph{arXiv:2108.13264 [cs, stat]}, January 2022.
+\newblock URL \url{http://arxiv.org/abs/2108.13264}.
+
+\bibitem[Buhl(2001)]{buhlCRUNCHUSERGUIDE2001}
+Marshall~L. Buhl.
+\newblock {{CRUNCH USER}}'{{S GUIDE}}.
+\newblock 2001.
+
+\bibitem[{van Solingen} and {van
+  Wingerden}(2015)]{vansolingenLinearIndividualPitch2015}
+E.~{van Solingen} and J.W. {van Wingerden}.
+\newblock Linear individual pitch control design for two-bladed wind turbines:
+  {{Linear}} individual pitch control design for two-bladed wind turbines.
+\newblock \emph{Wind Energy}, 18\penalty0 (4):\penalty0 677--697, April 2015.
+\newblock ISSN 10954244.
+\newblock \doi{10.1002/we.1720}.
+\newblock URL \url{https://onlinelibrary.wiley.com/doi/10.1002/we.1720}.
+
+\bibitem[Pearl(2009)]{pearlCausalInferenceStatistics2009}
+Judea Pearl.
+\newblock Causal inference in statistics: {{An}} overview.
+\newblock \emph{Statistics surveys}, 3:\penalty0 96--146, 2009.
+
+\bibitem[Berkenkamp et~al.(2017)Berkenkamp, Turchetta, Schoellig, and
+  Krause]{berkenkampSafeModelbasedReinforcement2017}
+Felix Berkenkamp, Matteo Turchetta, Angela~P. Schoellig, and Andreas Krause.
+\newblock Safe {{Model-based Reinforcement Learning}} with {{Stability
+  Guarantees}}.
+\newblock \emph{arXiv:1705.08551 [cs, stat]}, November 2017.
+\newblock URL \url{http://arxiv.org/abs/1705.08551}.
+
+\bibitem[Kumar et~al.(2021)Kumar, Agarwal, Ma, Courville, Tucker, and
+  Levine]{kumarDR3ValueBasedDeep2021}
+Aviral Kumar, Rishabh Agarwal, Tengyu Ma, Aaron Courville, George Tucker, and
+  Sergey Levine.
+\newblock {{DR3}}: {{Value-Based Deep Reinforcement Learning Requires Explicit
+  Regularization}}.
+\newblock \emph{arXiv:2112.04716 [cs]}, December 2021.
+\newblock URL \url{http://arxiv.org/abs/2112.04716}.
+
+\bibitem[Bareinboim(2020)]{bareinboimCausalReinforcementLearning2020}
+Elias Bareinboim.
+\newblock Causal {{Reinforcement Learning}}, December 2020.
+\newblock URL \url{https://crl.causalai.net/}.
+
+\bibitem[Zeiler and
+  Fergus(2013)]{zeilerVisualizingUnderstandingConvolutional2013}
+Matthew~D. Zeiler and Rob Fergus.
+\newblock Visualizing and {{Understanding Convolutional Networks}}.
+\newblock \emph{arXiv:1311.2901 [cs]}, November 2013.
+\newblock URL \url{http://arxiv.org/abs/1311.2901}.
+
+\bibitem[Mordvintsev et~al.(2015)Mordvintsev, Olah, and
+  Tyka]{mordvintsevDeepDream2015}
+Alexander Mordvintsev, Christopher Olah, and Mike Tyka.
+\newblock Deep {{Dream}}, June 2015.
+\newblock URL
+  \url{https://ai.googleblog.com/2015/06/inceptionism-going-deeper-into-neural.html}.
+
+\bibitem[Asgharnia et~al.(2020)Asgharnia, Jamali, Shahnazi, and
+  Maheri]{asgharniaLoadMitigationClass2020}
+A.~Asgharnia, A.~Jamali, R.~Shahnazi, and A.~Maheri.
+\newblock Load mitigation of a class of 5-{{MW}} wind turbine with {{RBF}}
+  neural network based fractional-order {{PID}} controller.
+\newblock \emph{ISA Transactions}, 96:\penalty0 272--286, January 2020.
+\newblock ISSN 00190578.
+\newblock \doi{10.1016/j.isatra.2019.07.006}.
+\newblock URL
+  \url{https://linkinghub.elsevier.com/retrieve/pii/S0019057819302964}.
+
+\bibitem[Hosseini et~al.(2020)Hosseini, Aghadavoodi, and
+  Fern{\'a}ndez~Ram{\'i}rez]{hosseiniImprovingResponseWind2020}
+Ehsan Hosseini, Ehsan Aghadavoodi, and Luis~M. Fern{\'a}ndez~Ram{\'i}rez.
+\newblock Improving response of wind turbines by pitch angle controller based
+  on gain-scheduled recurrent {{ANFIS}} type 2 with passive reinforcement
+  learning.
+\newblock \emph{Renewable Energy}, 157:\penalty0 897--910, September 2020.
+\newblock ISSN 09601481.
+\newblock \doi{10.1016/j.renene.2020.05.060}.
+\newblock URL
+  \url{https://linkinghub.elsevier.com/retrieve/pii/S0960148120307588}.
+
+\bibitem[Chen et~al.(2020)Chen, Han, Tan, and
+  Wang]{chenReinforcementbasedRobustVariable2020}
+Peng Chen, Dezhi Han, Fuxiao Tan, and Jun Wang.
+\newblock Reinforcement-based robust variable pitch control of wind turbines.
+\newblock \emph{IEEE access : practical innovations, open solutions},
+  8:\penalty0 20493--20502, 2020.
+\newblock \doi{10.1109/ACCESS.2020.2968853}.
+
+\bibitem[Zhang et~al.(2020)Zhang, Zhao, and
+  Wei]{zhangReinforcementLearningBasedStructural2020}
+Jincheng Zhang, Xiaowei Zhao, and Xing Wei.
+\newblock Reinforcement {{Learning-Based Structural Control}} of {{Floating
+  Wind Turbines}}.
+\newblock \emph{IEEE Transactions on Systems, Man, and Cybernetics: Systems},
+  pages 1--11, 2020.
+\newblock ISSN 2168-2216, 2168-2232.
+\newblock \doi{10.1109/TSMC.2020.3032622}.
+\newblock URL \url{https://ieeexplore.ieee.org/document/9254086/}.
+
+\bibitem[{Saenz-Aguirre} et~al.(2019){Saenz-Aguirre}, Zulueta,
+  {Fernandez-Gamiz}, Lozano, and
+  {Lopez-Guede}]{saenz-aguirreArtificialNeuralNetwork2019}
+Aitor {Saenz-Aguirre}, Ekaitz Zulueta, Unai {Fernandez-Gamiz}, Javier Lozano,
+  and Jose {Lopez-Guede}.
+\newblock Artificial {{Neural Network Based Reinforcement Learning}} for {{Wind
+  Turbine Yaw Control}}.
+\newblock \emph{Energies}, 12\penalty0 (3):\penalty0 436, January 2019.
+\newblock ISSN 1996-1073.
+\newblock \doi{10.3390/en12030436}.
+\newblock URL \url{http://www.mdpi.com/1996-1073/12/3/436}.
+
+\bibitem[Zhao et~al.(2020)Zhao, Zhao, Qiu, Liang, and
+  Dong]{zhaoCooperativeWindFarm2020}
+Huan Zhao, Junhua Zhao, Jing Qiu, Gaoqi Liang, and Zhao~Yang Dong.
+\newblock Cooperative wind farm control with deep reinforcement learning and
+  knowledge-assisted learning.
+\newblock \emph{IEEE Transactions on Industrial Informatics}, 16\penalty0
+  (11):\penalty0 6912--6921, 2020.
+\newblock \doi{10.1109/TII.2020.2974037}.
+
+\bibitem[Padullaparthi et~al.(2022)Padullaparthi, Nagarathinam, Vasan, Menon,
+  and Sudarsanam]{padullaparthiFALCONFArmLevel2022}
+Venkata~Ramakrishna Padullaparthi, Srinarayana Nagarathinam, Arunchandar Vasan,
+  Vishnu Menon, and Depak Sudarsanam.
+\newblock {{FALCON- FArm Level CONtrol}} for wind turbines using multi-agent
+  deep reinforcement learning.
+\newblock \emph{Renewable Energy}, 181:\penalty0 445--456, January 2022.
+\newblock ISSN 09601481.
+\newblock \doi{10.1016/j.renene.2021.09.023}.
+\newblock URL
+  \url{https://linkinghub.elsevier.com/retrieve/pii/S0960148121013227}.
+
+\bibitem[Jonkman et~al.(2009)Jonkman, Butterfield, Musial, and
+  Scott]{jonkmanDefinition5MWReference2009}
+J.~Jonkman, S.~Butterfield, W.~Musial, and G.~Scott.
+\newblock Definition of a 5-{{MW Reference Wind Turbine}} for {{Offshore System
+  Development}}.
+\newblock Technical Report NREL/TP-500-38060, 947422, February 2009.
+\newblock URL \url{http://www.osti.gov/servlets/purl/947422-nhrlni/}.
+
+\bibitem[Huang et~al.(2017)Huang, Papernot, Goodfellow, Duan, and
+  Abbeel]{huangAdversarialAttacksNeural2017}
+Sandy Huang, Nicolas Papernot, Ian Goodfellow, Yan Duan, and Pieter Abbeel.
+\newblock Adversarial attacks on neural network policies.
+\newblock \emph{arXiv preprint arXiv:1702.02284}, 2017.
+
+\bibitem[Brunton et~al.(2016)Brunton, Proctor, and
+  Kutz]{bruntonDiscoveringGoverningEquations2016}
+Steven~L. Brunton, Joshua~L. Proctor, and J.~Nathan Kutz.
+\newblock Discovering governing equations from data by sparse identification of
+  nonlinear dynamical systems.
+\newblock \emph{Proceedings of the National Academy of Sciences}, 113\penalty0
+  (15):\penalty0 3932--3937, April 2016.
+\newblock ISSN 0027-8424, 1091-6490.
+\newblock \doi{10.1073/pnas.1517384113}.
+\newblock URL \url{http://www.pnas.org/lookup/doi/10.1073/pnas.1517384113}.
+
+\end{thebibliography}

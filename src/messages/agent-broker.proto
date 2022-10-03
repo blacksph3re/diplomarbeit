@@ -1,0 +1,18 @@
+syntax = "proto3";
+
+message RequestEnv {
+  bool allocate_env = 1; // Whether to allocate a new env
+  bool send_info = 2; // Whether to send back infos
+  bool shutdown = 3; // Whether to shut down everything
+  string hostname = 4;
+  uint32 group = 5; // The configuration group requested
+}
+
+message AssignEnv {
+  string address = 1;
+  bool success = 2;
+
+  bytes action_space = 3;
+  bytes observation_space = 4;
+  uint32 env_count = 5;
+}

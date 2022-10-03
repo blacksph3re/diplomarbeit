@@ -1,0 +1,58 @@
+\documentclass{article}
+
+\usepackage[margin=0.7in]{geometry}
+\usepackage[parfill]{parskip}
+\usepackage{amsmath,amssymb,amsfonts,amsthm}
+\usepackage[utf8]{inputenc}
+\usepackage{cite}
+\usepackage{acro}
+\input{abbreviations.tex}
+
+\begin{document}
+
+\section{Reinforcement learning for wind turbine load alleviation}
+
+Recent advancements in \ac{RL} have managed to tackle more and more complex problems, like StarCraft \cite{vinyalsGrandmasterLevelStarCraft2019} or Go \cite{silverMasteringGameGo2016}. Modern \ac{RL} algorithms \cite{haarnojaSoftActorCriticOffPolicy2018} \cite{schulmanProximalPolicyOptimization2017} \cite{fujimotoAddressingFunctionApproximation2018} have solved various high dimensional and complex control problems where traditional control theory has failed. Thus, they offer potential for wind turbine control, a field currently dominated by \ac{PID} style controllers. In wind turbine control, a control policy which maximizes energy yield while minimizing structual loads is desirable. One popular control strategy that reduces the rotor asymmetric loads without affecting the energy yield is the \ac{IPC} strategy. \cite{bossanyiIndividualBladePitch2003} \cite{bossanyiFurtherLoadReductions2005}.
+
+Reinforcement learning has shown potential to improve upon traditional \ac{PID} style controllers through introduction of more complex, neural controllers \cite{coqueletBiomimeticIndividualPitch2020} \cite{tominIntelligentControlWind2019}. While the task of maximizing energy yields is solved well with analytical controllers, the more difficult task of reducing structural loads can be offloaded to a supplementary neural controller. As structural loads are especially critical in wind speeds around the rated speed of the turbine, this is the area where such a supplementary controller has the highest potential of improvement.
+
+Wind turbine control poses an higher challenge compared to toy control problems such as in the OpenAI Gym suite \cite{brockmanOpenAIGym2016} due several factors.
+Wind turbine control has a high number of optimization aims, which are partially mutually exclusive or require tradeoffs. Especially large wind turbines with outputs above 1MW bring high inertia movements, so the speed in which the turbine reacts to change is relatively low. Also, wind turbines are sensitive to actuator noise, which means exploration noise needs to be controlled carefully. Finally, several boundary conditions are dictated by the wind turbine model, which should not be exceeded during training.
+
+For this diploma thesis, Mr. Westerbeck shall 
+\begin{itemize}
+  \item analyze the literature in state of the art wind turbine load reduction controllers and \ac{RL} with a focus on applicability to wind turbine control 
+  \item choose or implement an algorithm and framework suitable for training continuous wind turbine control policies on the QBlade aeroelastic simulation software \cite{martenQBladeModernTool2020}
+  \item train and evaluate controllers in a simplified steady wind setting to minimize fatigue loads with the aim of
+  \begin{itemize}
+    \item ensuring bug-free training
+    \item quantifying the importance of the reward function for the performance of the \ac{RL}-Controller and use it to fulfill the optimization aims as good as possible
+    \item implement necessary pre- and postprocessing steps to learn a high quality policy
+    \item implement necessary algorithmic improvements to learn a high quality policy
+    \item understanding hyperparameter influences and measuring their impact through hyperparameter grid searches
+    \item (optionally) comparing multiple reinforcement learning algorithms
+  \end{itemize}
+  \item train and evaluate controllers in a turbulent wind setting to minimize fatigue loads
+  \begin{itemize}
+    \item finding out whether strategies and hyperparameters from the steady wind setting transfer to the turbulent wind setting
+    \item implement necessary pre+postprocessing adjustments, algorithmic adjustments and shape a suitable reward function for this setting
+    \item perform grid search evaluations to justify changes and find optimal parameters
+    \item evaluating learnt policies with wind speeds above rated speed
+    \item comparing them to a baseline controller without load control strategy and a controller which is based on the \ac{IPC} strategy
+  \end{itemize}
+  \item (optionally) train and evaluate controllers in a turbulent wind setting to minimize extreme loads
+  \begin{itemize}
+    \item finding out whether strategies and hyperparameters from the fatigue load minimization setting transfer to this setting
+    \item implement necessary pre+postprocessing adjustments, algorithmic adjustments and shape a suitable reward function for this setting
+    \item perform grid search evaluations to justify changes and find optimal parameters
+    \item evaluate learnt policies with a specific focus on the transition period around rated speed
+    \item comparing them to a baseline controller without load control strategy and a controller which is based on the \ac{IPC} strategy
+  \end{itemize}
+\end{itemize}
+
+
+\bibliography{main}{}
+\bibliographystyle{plain}
+
+\end{document}
+
